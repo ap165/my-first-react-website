@@ -1,7 +1,6 @@
 import Nav from './components/Nav.jsx';
 import './css/index.css';
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
 import TopAnimes from "./pages/TopAnimes.jsx";
 import AnimeInfo from "./pages/AnimeInfo.jsx";
 
