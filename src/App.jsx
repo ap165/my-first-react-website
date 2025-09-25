@@ -16,6 +16,7 @@ const App = () => {
       <br/>
       <Routes>
         <Route path="/" element={<TopAnimes anime_type="airing" key="airing" />} />
+        <Route path="/my-first-react-website" element={<TopAnimes anime_type="airing" key="airing" />} />
         <Route path="/popular" element={<TopAnimes anime_type="bypopularity" key="bypopularity" />} />
         <Route path="/movies" element={<TopAnimes anime_type="movie" key="movie" />} />
         <Route path="/tv" element={<TopAnimes anime_type="tv" key="tv" />} />

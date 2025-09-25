@@ -1,6 +1,9 @@
 import "../css/nav.css";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logoSmall from "../resources/logo-small.png";
+import listIcon from "../resources/list.svg";
+import searchSvg from "../resources/search.svg";
 
 const Nav = () => {
     const [open, setOpen] = useState(false);
@@ -16,7 +19,7 @@ const Nav = () => {
     }
     return <div className="nav-bar">
         <nav className="nav">
-            <h1 className="nav-title"><img src="my-first-react-website/src/resources/logo-small.png" width="50" height="50" /><span>SKY</span>PIEA</h1>
+            <h1 className="nav-title"><img src={logoSmall} width="50" height="50" /><span>SKY</span>PIEA</h1>
             <div className="nav-links-pc">
                 <NavLink to="/" className="nav-link">Home</NavLink>
                 <NavLink className="nav-link" to="/popular">Most Popular</NavLink>
@@ -26,9 +29,9 @@ const Nav = () => {
             </div>
             <form className="nav-search-desktop nav-search" >
                 <input type="text" className="nav-search-input" placeholder="Search Anime..." />
-                <button className="nav-search-btn"><img src="my-first-react-website/src/resources/search.svg" /></button>
+                <button className="nav-search-btn"><img src={listIcon} /></button>
             </form>
-            <button onClick={() => navOpenClose()} className="nav-btn-mobile"><img src="my-first-react-website/src/resources/list.svg" /></button>
+            <button onClick={() => navOpenClose()} className="nav-btn-mobile"><img src={listIcon} /></button>
         </nav>
         <div className="nav-links-phone">
             <NavLink to="/" className="nav-link">Home</NavLink>
@@ -39,7 +42,7 @@ const Nav = () => {
             <br/>
             <form className="nav-search-mobile nav-search" >
                 <input type="text" className="nav-search-input" placeholder="Search Anime..." />
-                <button className="nav-search-btn"><img src="my-first-react-website/src/resources/search.svg" /></button>
+                <button className="nav-search-btn"><img src={searchSvg} /></button>
             </form>
         </div>
     </div>
