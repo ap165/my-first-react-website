@@ -1,0 +1,157 @@
+.anime-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px auto;
+  max-width: 900px;
+  color: #222;
+  line-height: 1.6;
+  text-align: center; /* Center all content */
+}
+
+.anime-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.anime-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.anime-description {
+  white-space: pre-line;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #34495e;
+  text-align: left; /* description left aligned */
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  margin-top: 30px;
+  padding: 15px 10px;
+  border-top: 2px solid #ecf0f1;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+.external-links ul,
+.theme-songs ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: #2c3e50;
+}
+
+.external-links a,
+.related-animes a,
+.official-page a {
+  text-decoration: none;
+  color: #2980b9;
+  transition: color 0.3s ease;
+}
+
+.external-links a:hover,
+.related-animes a:hover,
+.official-page a:hover {
+  color: #1abc9c;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #2d3436;
+}
+
+.info-table th,
+.info-table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #dfe6e9;
+  text-align: left;
+}
+
+.info-table th {
+  background-color: #dfe6e9;
+  text-transform: capitalize;
+  width: 240px;
+}
+
+.related-animes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+}
+
+.related-anime-card {
+  width: 90px;
+  text-align: center;
+  color: #2d3436;
+  font-size: 0.85rem;
+  transition: transform 0.2s ease;
+}
+
+.related-anime-card:hover {
+  transform: scale(1.05);
+}
+
+.related-anime-card img {
+  width: 90px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  margin-bottom: 8px;
+}
+
+.related-anime-type {
+  font-size: 0.75rem;
+  color: #636e72;
+}
+
+.theme-songs h3 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #2c3e50;
+}
+
+.official-page {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.official-page a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 2px solid #2980b9;
+  padding: 8px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.official-page a:hover {
+  background-color: #2980b9;
+  color: #fff;
+  transition: all 0.3s ease;
+}

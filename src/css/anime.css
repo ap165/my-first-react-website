@@ -1,0 +1,33 @@
+.animeCard{
+    display: inline-block;
+    width: 170px;
+    height: 265px;
+    overflow: none;
+    margin: 0 5px 5px 5px;
+    background-color: #181818b3;
+    text-decoration: none;
+    border-radius: 9px;
+    border: 2px solid #333
+}
+
+.animeCard-img{
+    width: 100%;
+    height: 88%;
+}
+
+.animeCard-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.animeCard-title{
+    width: 94%;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    color: #fff;
+    padding: 5px;
+}
